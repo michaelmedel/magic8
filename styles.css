@@ -1,0 +1,66 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: black;
+  font-family: Helvetica;
+}
+
+#triangle {
+	width: 0;
+	height: 0;
+	border-left: 200px solid transparent;
+	border-right: 200px solid transparent;
+	border-bottom: 400px solid blue;
+  position: absolute;
+  top:0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+
+#answerText {
+  position: relative;
+  top: 200px;
+  right: 98px;
+  height: 198px;
+  width: 198px;
+  text-align: center;
+  padding-top: 40px;
+  color: aqua;
+  font-size: 40px;
+}
+label {
+  color: #C9A0DC;
+  font-size: 30px;
+  padding-left: 25px;
+  padding-top: 25px;
+}
+
+ #question {
+   color: #C9A0DC;
+   float: right;
+   font-size: 30px;
+   padding-right: 25px;
+   padding-top: 25px;
+ }
+
+ #test {
+   padding-left: 25px;
+   padding-top: 10px;
+   font-size: 40px;
+
+}
+
+#text {
+   width: 400px;
+   height: 20px;
+  
+}
+
+header {
+
+}
