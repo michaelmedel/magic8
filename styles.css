@@ -31,16 +31,24 @@ body {
   text-align: center;
   padding-top: 10px;
   color: aqua;
-  font-size: 50px;
+  font-size: 40px;
+
 }
 
 #question {
    color: #c32aff;
    float: right;
    font-size: 40px;
-   padding-right: 20px;
-   padding-top: 10px;
- }
+   right: 20px;
+   width: 350px;
+   top: 10px;
+   position: absolute;
+   text-align: left;
+   word-wrap: break-word;
+
+
+}
+
 
  #test {
    padding-left: 20px;

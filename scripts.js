@@ -38,6 +38,7 @@ function askQuestion() {
       q.innerHTML = question;
       f.value = "";
     }
+  
 })
 
 
