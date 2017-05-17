@@ -31,20 +31,14 @@ body {
   text-align: center;
   padding-top: 10px;
   color: aqua;
-  font-size: 40px;
+  font-size: 35px;
 
 }
 
 #question {
    color: #c32aff;
-   float: right;
    font-size: 40px;
-   right: 20px;
-   width: 350px;
-   top: 10px;
-   position: absolute;
-   text-align: left;
-   word-wrap: break-word;
+   text-align: center;
 
 
 }
@@ -57,7 +51,7 @@ body {
 }
 
 #text {
-   width: 50%;
+   width: 80%;
    height: 35px;
    background-color: lightgrey;
    color: #c32aff;
