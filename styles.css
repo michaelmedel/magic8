@@ -29,38 +29,54 @@ body {
   height: 198px;
   width: 198px;
   text-align: center;
-  padding-top: 40px;
+  padding-top: 10px;
   color: aqua;
-  font-size: 40px;
-}
-label {
-  color: #C9A0DC;
-  font-size: 30px;
-  padding-left: 25px;
-  padding-top: 25px;
+  font-size: 50px;
 }
 
- #question {
-   color: #C9A0DC;
+#question {
+   color: #c32aff;
    float: right;
-   font-size: 30px;
-   padding-right: 25px;
-   padding-top: 25px;
+   font-size: 40px;
+   padding-right: 20px;
+   padding-top: 10px;
  }
 
  #test {
-   padding-left: 25px;
+   padding-left: 20px;
    padding-top: 10px;
    font-size: 40px;
-
 }
 
 #text {
-   width: 400px;
-   height: 20px;
-  
+   width: 50%;
+   height: 35px;
+   background-color: lightgrey;
+   color: #c32aff;
+   border-style: none;
 }
 
-header {
+#reset {
+  padding-top: 9px;
+  padding-bottom: 4px;
+  margin-bottom: 2px;
+  width:80px;
+  border-style: none;
+  color: #c32aff;
+  background-color: lightgrey;
+  font-size: 20px;
+}
+#reset:hover {
+  background-color: ;
+}
 
+#submit {
+  padding-top: 9px;
+  padding-bottom: 4px;
+  margin-bottom: 2px;
+  width:55px;
+  border-style: none;
+  color: #c32aff;
+  background-color: lightgrey;
+  font-size: 20px;
 }

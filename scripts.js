@@ -28,19 +28,24 @@ var s = document.getElementById("submit");
 var r = document.getElementById("reset");
 
 function askQuestion() {
-s.addEventListener('click', function(){
+    s.addEventListener('click', function(){
+      if(f.value !== ""){
 
-var answer = answers[Math.floor(Math.random()*answers.length)];
-	var question = "";
-	question = f.value;
-  t.innerHTML = answer;
-  q.innerHTML = question;
-  f.value = "";
+      var answer = answers[Math.floor(Math.random()*answers.length)];
+	    var question = "";
+	    question = f.value;
+      t.innerHTML = answer;
+      q.innerHTML = question;
+      f.value = "";
+    }
 })
+
+
 r.addEventListener('click', function(){
 	f.value = "";
   q.innerHTML = "";
   t.innerHTML = "";
+
 })
 }
 askQuestion();
